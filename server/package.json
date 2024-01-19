@@ -1,0 +1,17 @@
+{
+  "name": "company-info-management",
+  "version": "1.0.0",
+  "description": "Coffee.io assessment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mvc",
+    "mongodb"
+  ],
+  "author": "spurgeon",
+  "license": "ISC"
+}
