@@ -66,9 +66,9 @@ yarn-error.log
 /coverage
 
 # Ignore environment files
-.env
-.env.local
-.env.*.local
-.env.*.test
-.env.test
-.env.production
+# .env
+# .env.local
+# .env.*.local
+# .env.*.test
+# .env.test
+# .env.production
