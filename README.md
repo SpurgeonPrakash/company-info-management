@@ -26,7 +26,7 @@ Before running the app, make sure you install node js.
 6. In another terminal, Navigate to the client directory `cd client`.
 7. Install dependencies using `npm install`.
 8. Replace your env variables with the provided env file.
-9. Start the React app using `npm start`.
+9. Start the React app using `npm run dev`.
 
 ## Project Structure
 
