@@ -1,0 +1,49 @@
+.selectTitle {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.select {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -webkit-padding-end: 20px;
+  -moz-padding-end: 20px;
+  -webkit-padding-start: 2px;
+  -moz-padding-start: 2px;
+  /* background-color: transperant; */
+  /* Fallback color if gradients are not supported */
+  background-image: url(../../../assets/select/select-arrow.png)
+    linear-gradient(); /* For Chrome and Safari */
+  /* background: transparent; */
+  background-position: center right;
+  background-repeat: no-repeat;
+  /* border: 1px solid #aaa; */
+  border-radius: 5px;
+  /* box-shadow: 0 0 2px 0 hsl(204, 5%, 38%); */
+  /* color: #555; */
+  font-size: 0.9rem;
+  margin: 0;
+  overflow: hidden;
+  /* padding-top: 2px;
+    padding-bottom: 2px; */
+  padding: 0.6rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  outline: none;
+  width: 100%;
+  color: inherit;
+  margin-bottom: 0.4rem;
+}
+
+.error {
+  color: #dc1319;
+  text-align: center;
+  font-size: 0.9rem;
+  position: relative;
+  /* top: 18px; */
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+  margin-top: 0.5rem;
+}

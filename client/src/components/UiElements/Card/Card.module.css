@@ -1,0 +1,83 @@
+.cardContainer {
+  width: calc(33.333% - 1rem);
+  margin-bottom: 1rem;
+  /* background-color: blueviolet; */
+  margin-right: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 2px 0 hsl(204, 5%, 38%);
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--col-light);
+}
+
+.cardContent:hover {
+  cursor: pointer;
+}
+
+.cardHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 0.5rem; */
+  /* margin-bottom: 0.3rem; */
+  /* position: relative; */
+}
+
+.btn {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.deletBtn {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cardContent {
+  margin-top: 0.5rem;
+}
+
+/* 
+##Device = Desktops
+##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+}
+
+/* 
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/* 
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cardContainer {
+    width: calc(50% - 1rem);
+  }
+}
+
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .cardContainer {
+    width: calc(100%);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .cardContainer {
+    width: calc(100%);
+  }
+}

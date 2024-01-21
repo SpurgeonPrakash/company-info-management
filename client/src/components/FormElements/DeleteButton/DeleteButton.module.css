@@ -1,0 +1,12 @@
+.btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.deletBtn {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: red;
+}

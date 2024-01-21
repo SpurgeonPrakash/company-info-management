@@ -1,0 +1,16 @@
+.companyListContainer {
+  padding: 0 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+
+.companyListContainer h1 {
+  color: var(--sec-col);
+}
+
+.companyListContent {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  margin-top: 1rem;
+}

@@ -1,0 +1,4 @@
+.container {
+  box-shadow: 0 0 2px 0 hsl(204, 5%, 38%);
+  background-color: var(--bgcol-sec-light);
+}

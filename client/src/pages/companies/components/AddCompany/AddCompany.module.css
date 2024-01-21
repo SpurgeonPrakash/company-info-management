@@ -1,0 +1,84 @@
+.addCompanyContainer {
+  width: 50%;
+  border-right: 0.1px solid hsl(204, 5%, 38%);
+}
+
+.contactContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.countryCode {
+  position: relative;
+  width: 20%;
+}
+
+.contactHeading {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.searchedCodes {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  max-height: 250px;
+  overflow: auto;
+  background-color: var(--bgcol-light);
+  /* padding: 1rem; */
+  border-radius: 5px;
+  box-shadow: 0 0 2px 0 hsl(204, 5%, 38%);
+  z-index: 10000;
+}
+
+.searchedCodes::-webkit-scrollbar {
+  margin-left: 1rem;
+  width: 0.5rem;
+  border-radius: 6px;
+  background-color: var(--bgcol-sec-light);
+}
+
+.searchedCodes::-webkit-scrollbar-thumb {
+  background-color: var(--bgcol-light);
+  border-radius: 6px;
+}
+
+.codeDetail {
+  display: flex;
+  justify-content: space-between;
+  min-width: 175px;
+  outline: none;
+  border: none;
+  background-color: var(--bgcol-sec-light);
+  /* border-radius: 10px; */
+  padding: 0.5rem 1rem;
+  width: 100%;
+  box-shadow: 0 0 2px 0 hsl(204, 5%, 38%);
+  /* margin-bottom: 0.5rem; */
+}
+
+.codeDetail:hover {
+  cursor: pointer;
+}
+
+.contactNum {
+  width: 78%;
+}
+
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .addCompanyContainer {
+    width: 100%;
+    border-right: 0 solid transparent;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .addCompanyContainer {
+    width: 100%;
+  }
+}

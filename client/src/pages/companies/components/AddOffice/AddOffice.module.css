@@ -1,0 +1,52 @@
+.addOfficeContainer {
+  width: 50%;
+}
+
+.locationHeading {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.locationContainer {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: blueviolet; */
+}
+
+.locPoint {
+  width: 49%;
+}
+
+.datePicker {
+  /* display: inline-block; */
+  padding: 0.6rem;
+  min-width: 606px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 2px 0 hsl(204, 5%, 38%);
+  font-size: 0.9rem;
+  color: inherit;
+}
+
+.dateHeading {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .addOfficeContainer {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .addOfficeContainer {
+    width: 100%;
+  }
+}

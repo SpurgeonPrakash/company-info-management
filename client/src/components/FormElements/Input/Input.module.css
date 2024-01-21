@@ -1,0 +1,38 @@
+.input {
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 2px 0 hsl(204, 5%, 38%);
+  font-size: 0.9rem;
+  width: 100%;
+  color: inherit;
+}
+
+.input:focus {
+  border: 1px solid var(--sec-col);
+}
+
+.formItem {
+  margin-bottom: 1rem;
+}
+
+.inputLabel {
+  font-weight: bold;
+  /* margin-right: 5px;
+  letter-spacing: 1.3px;
+  font-size: 1.3rem; */
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.error {
+  color: #dc1319;
+  text-align: center;
+  font-size: 0.9rem;
+  position: relative;
+  /* top: 18px; */
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+  margin-top: 0.5rem;
+}

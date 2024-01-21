@@ -1,0 +1,32 @@
+.button {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 0.5rem 0;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: hsl(204, 5%, 38%);
+  color: white;
+  cursor: not-allowed;
+}
+
+.flat {
+  background-color: var(--sec-col);
+  color: white;
+}
+
+.outlined {
+  background-color: transparent;
+  color: var(--sec-col);
+  border: 1px solid var(--sec-col);
+}

@@ -1,0 +1,8 @@
+.companyDetail {
+  margin-bottom: 0.5rem;
+}
+
+.companyDetail p {
+  font-size: 1rem;
+  color: hsl(204, 5%, 38%);
+}

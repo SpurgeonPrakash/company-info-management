@@ -1,0 +1,76 @@
+.overViewContainer {
+  box-shadow: 0 0 2px 0 hsl(204, 5%, 38%);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.overvieHeading h1 {
+  margin-bottom: 0.5rem;
+}
+
+.overviewContent {
+  margin-top: 1rem;
+}
+
+.companyOverviewBtnContainer {
+  /* width: 200px; */
+  position: relative;
+}
+.companyOverviewBtn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/* 
+##Device = Desktops
+##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+}
+
+/* 
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/* 
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .companyOverviewBtnContainer {
+    width: 200px;
+    /* position: relative; */
+  }
+  .companyOverviewBtn {
+    position: initial;
+    /* right: 0; */
+    /* bottom: 0; */
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .companyOverviewBtnContainer {
+    width: 200px;
+    /* position: relative; */
+  }
+  .companyOverviewBtn {
+    position: initial;
+    /* right: 0; */
+    /* bottom: 0; */
+  }
+}

@@ -1,35 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Switch, Route, Redirect } from "react-router-dom";
+
+import { ToastContainer } from "react-toastify";
+
+import "react-toastify/dist/ReactToastify.min.css";
+import "./App.css";
+
+import Companies from "./pages/companies/Companies";
+import Heading from "./components/Heading/Heading";
+import CompanyOffices from "./pages/companyOffices/CompanyOffices";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const routes = (
+    <Switch>
+      <Route exact path="/" component={Companies} />
+      <Route exact path="/company/:companyId" component={CompanyOffices} />
+      <Redirect to="/" />
+    </Switch>
+  );
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className="container">
+      <Heading />
+      <ToastContainer
+        // autoClose={false}
+        // position="top-center"
+        // className="toast-container"
+        // toastClassName="dark-toast"
+        theme="colored"
+      />
+      <section>{routes}</section>
+    </div>
+  );
 }
 
-export default App
+export default App;

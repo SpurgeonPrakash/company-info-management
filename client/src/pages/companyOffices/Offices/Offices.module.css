@@ -1,0 +1,16 @@
+.officeListContainer {
+  /* padding: 0 2rem; */
+  padding-bottom: 2rem;
+  margin: 2rem 0;
+}
+
+.officeListContainer h1 {
+  color: var(--sec-col);
+}
+
+.officeListContent {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  margin-top: 1rem;
+}

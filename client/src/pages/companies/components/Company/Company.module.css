@@ -1,0 +1,45 @@
+.companyContainer {
+  width: calc(33.333% - 1rem);
+  margin-bottom: 1rem;
+  /* background-color: blueviolet; */
+  margin-right: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 2px 0 hsl(204, 5%, 38%);
+  border-radius: 5px;
+  text-decoration: none;
+  color: var(--col-light);
+}
+
+.companyContent:hover {
+  cursor: pointer;
+}
+
+.companyHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 0.5rem; */
+  /* margin-bottom: 0.3rem; */
+  /* position: relative; */
+}
+
+.btn {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.deletBtn {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.companyContent {
+  margin-top: 0.5rem;
+}
+
+.deleteContainer {
+  /* position: absolute;
+  z-index: 10000;
+  right: 0; */
+}
