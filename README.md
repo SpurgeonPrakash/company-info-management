@@ -17,7 +17,7 @@ This project is a React web application for managing company and office informat
 
 ## Setup and Running
 
-Before running the app, make sure you install node js.
+Before running the app, make sure you install node js and mongodb in your machine or have an account for mongodb.
 1. Clone the repository.
 2. In your cloned project directory open a terminal and navigate to server directory `cd server`
 3. Install dependencies using `npm install`.
