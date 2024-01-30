@@ -21,11 +21,11 @@ Before running the app, make sure you install node js and mongodb in your machin
 1. Clone the repository.
 2. In your cloned project directory open a terminal and navigate to server directory `cd server`
 3. Install dependencies using `npm install`.
-4. Replace your env variables with in the provided env file.
+4. Replace your env variables with in the provided .env file.
 5. Start the NodeJS server using `npm start`.
 6. In another terminal, Navigate to the client directory `cd client`.
 7. Install dependencies using `npm install`.
-8. Replace your env variables with in the provided env file.
+8. Replace your env variables with in the provided .env file.
 9. Start the React app using `npm run dev`.
 
 ## Project Structure
